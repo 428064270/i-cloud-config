@@ -53,3 +53,7 @@ eureka:
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  mapper-locations: classpath:mybatis/*.xml
