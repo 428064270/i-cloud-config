@@ -32,8 +32,8 @@ zuul:
   add-host-header: true
   sensitive-headers:
 ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 management:
